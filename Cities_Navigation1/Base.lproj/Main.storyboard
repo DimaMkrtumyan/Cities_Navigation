@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GHl-lZ-Nhh">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cities_Navigation1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Vo1-13-lRo">
+                                <rect key="frame" x="16" y="216" width="361" height="308"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="61" translatesAutoresizingMaskIntoConstraints="NO" id="5Od-qB-aqZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="150"/>
+                                        <subviews>
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSu-QG-LLu">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="150" id="1gC-T1-8Ty"/>
+                                                    <constraint firstAttribute="height" constant="150" id="yb6-PF-n0e"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="new york"/>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Idk-MO-sRT">
+                                                <rect key="frame" x="211" y="0.0" width="150" height="150"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="150" id="3gc-w0-f9a"/>
+                                                    <constraint firstAttribute="height" constant="150" id="YbO-pJ-kMZ"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Bern"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="61" translatesAutoresizingMaskIntoConstraints="NO" id="Iwb-iT-nWl">
+                                        <rect key="frame" x="0.0" y="158" width="361" height="150"/>
+                                        <subviews>
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1X6-ft-fZx">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="150" id="P6H-tc-bpT"/>
+                                                    <constraint firstAttribute="height" constant="150" id="YPm-1S-sGN"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="san francisco"/>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zit-ul-vK9">
+                                                <rect key="frame" x="211" y="0.0" width="150" height="150"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="150" id="5ro-lI-WSJ"/>
+                                                    <constraint firstAttribute="height" constant="150" id="T6F-hW-GkY"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="london"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Vo1-13-lRo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0LC-xf-0Rv"/>
+                            <constraint firstItem="Vo1-13-lRo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="113" id="QjJ-Gb-ZsJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="sHG-Gs-Z2l"/>
+                    <connections>
+                        <outletCollection property="citiesButtons" destination="dSu-QG-LLu" collectionClass="NSMutableArray" id="npr-KU-jiQ"/>
+                        <outletCollection property="citiesButtons" destination="Idk-MO-sRT" collectionClass="NSMutableArray" id="GjR-iM-d4C"/>
+                        <outletCollection property="citiesButtons" destination="1X6-ft-fZx" collectionClass="NSMutableArray" id="r1L-gc-8I6"/>
+                        <outletCollection property="citiesButtons" destination="zit-ul-vK9" collectionClass="NSMutableArray" id="duL-3e-Vdd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1054.1984732824426" y="-27.464788732394368"/>
+        </scene>
+        <!--Info View Controller-->
+        <scene sceneID="yBe-gh-BQA">
+            <objects>
+                <viewController storyboardIdentifier="InfoViewController" id="ueA-eU-XMa" customClass="InfoViewController" customModule="Cities_Navigation1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OY9-fX-D3R">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cQO-aY-UKX">
+                                <rect key="frame" x="76.666666666666686" y="228" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="1GO-rE-pFU"/>
+                                    <constraint firstAttribute="width" constant="240" id="e99-X3-yIC"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HeQ-LX-ogg">
+                                <rect key="frame" x="176" y="476" width="41.333333333333343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="M4L-bc-0f6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HeQ-LX-ogg" firstAttribute="top" secondItem="cQO-aY-UKX" secondAttribute="bottom" constant="8" id="Lf7-4U-pNe"/>
+                            <constraint firstItem="cQO-aY-UKX" firstAttribute="top" secondItem="M4L-bc-0f6" secondAttribute="top" constant="169" id="PK4-tH-c7d"/>
+                            <constraint firstItem="HeQ-LX-ogg" firstAttribute="centerX" secondItem="cQO-aY-UKX" secondAttribute="centerX" id="cfc-OJ-7Pf"/>
+                            <constraint firstItem="cQO-aY-UKX" firstAttribute="centerX" secondItem="OY9-fX-D3R" secondAttribute="centerX" id="uND-qo-Plu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cityNameLbl" destination="HeQ-LX-ogg" id="azA-3u-I0F"/>
+                        <outlet property="mainImageView" destination="cQO-aY-UKX" id="dgH-Xo-c9L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bEa-Dk-HPW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1939.6946564885495" y="-27.464788732394368"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="V0J-Nr-tDM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GHl-lZ-Nhh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Dm9-d9-5oN">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="7hI-o5-3D7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SDf-q4-sWU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Bern" width="256" height="256"/>
+        <image name="london" width="256" height="256"/>
+        <image name="new york" width="225" height="225"/>
+        <image name="san francisco" width="256" height="256"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
